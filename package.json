@@ -1,0 +1,40 @@
+{
+  "name": "soft-ink-theme",
+  "displayName": "Soft Ink",
+  "description": "A warm, calm dark and light theme for VS Code, inspired by the code blocks in the Claude app.",
+  "version": "0.1.0",
+  "publisher": "dzhafar-said",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "light",
+    "warm",
+    "soft",
+    "claude"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/massi1024/soft-ink-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Soft Ink Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/soft-ink-dark.json"
+      },
+      {
+        "label": "Soft Ink Light",
+        "uiTheme": "vs",
+        "path": "./themes/soft-ink-light.json"
+      }
+    ]
+  }
+}
